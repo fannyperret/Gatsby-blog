@@ -48,9 +48,7 @@ export const P = styled.p`
             case "light1":
                 return props.theme.colors.light1
             case "light2":
-                return props.theme.colors.light2
-            case "dark1":
-                return props.theme.colors.dark1
+                return props.theme.colors.light2gi
             default:
                 return props.theme.colors.dark1
         }
@@ -73,8 +71,6 @@ export const H1 = styled.h1`
                 return props.theme.colors.light1
             case "light2":
                 return props.theme.colors.light2
-            case "dark1":
-                return props.theme.colors.dark1
             default:
                 return props.theme.colors.dark1
         }
@@ -99,8 +95,6 @@ export const H2 = styled.h2`
                 return props.theme.colors.light1
             case "light2":
                 return props.theme.colors.light2
-            case "dark1":
-                return props.theme.colors.dark1
             default:
                 return props.theme.colors.dark1
         }

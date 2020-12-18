@@ -33,6 +33,8 @@ export const FooterSocialIcons = styled.div`
         height: 30px;
         padding: 0 1rem;
         transition: filter 0.3s ease;
+        // filter: invert(25%) sepia(47%) saturate(326%) hue-rotate(131deg) brightness(97%) contrast(91%);
+        filter: invert(57%) sepia(14%) saturate(506%) hue-rotate(169deg) brightness(89%) contrast(83%);
     }
 
     & img:hover, img:focus {
